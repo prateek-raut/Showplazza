@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New BMS</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default gradi-clor main-header">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav nunit-bold left-nav-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">MOVIES</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">THEATRES</a></li>
+            <li><a href="#">TRAILES & VIDEOS</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right nunit-bold">
+            <li><a href="#">OFFERS</a></li>
+            <li><a href="#">GIFTING</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#">24x7 CUSTOMER CARE</a></li>
+            <li><a href="#" class="brdr-non" data-toggle="modal" data-target=".bs-example-modal-lg1"><i class="bms-icnpeople">&nbsp;</i><span class="brdr-dis">SIGN IN</span></a></li>
+            <li><a href="#" class="brdr-non"><i class="bms-icnnotification-bell"></i></a></li>
+          </ul>
+        </div>
+        <div class="search-hed container-fluid">
+          <div class="col-md-2 col-sm-2 col-xs-6  no-pad-tab">
+            <a href=""><img src="img/logo.png" class="img-responsive logo"></a>
+          </div>
+          <div class="col-md-8 col-sm-8 col-xs-11 no-padding hidden-xs">
+            <form class="" role="search">
+              <div class="input-group add-on">
+                <input type="text" class="form-control nunit-bold" placeholder="Search for Movies, Events and Theatres" name="srch-term" id="srch-term">
+                <div class="input-group-btn">
+                  <button class="btn serch-btn" type="submit"><i class="bms-icnsearch"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-6 main-locatin-drp">
+            <div class="btn-group btn-block nav navbar-nav">
+              <button type="button" class="btn btn-block dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <i class="bms-icnsigns2"></i> <span class="locatin-drp">LOCATION</span> <span class="caret"></span>
+              </button>
+              <div class="dropdown-menu row">
+                <div class="co-xs-12 location-search">
+                  <input type="text" class="form-control" placeholder="Enter your city">
+                </div>
+                <div class="loc-srch-brdr"></div>
+                <p>Top Cities</p>
+                <div class="col-xs-4 location-name no-padding">
+                  <ul>
+                    <li><a href="#">Nagpur</a>
+                    <li><a href="#">Nagpur</a>
+                    <li><a href="#">Nagpur</a>
+                  </ul>
+                </div>
+                <div class="col-xs-4 location-name no-padding">
+                  <ul>
+                    <li><a href="#">Nagpur</a>
+                    <li><a href="#">Nagpur</a>
+                    <li><a href="#">Nagpur</a>
+                  </ul>
+                </div>
+                <div class="col-xs-4 location-name no-padding">
+                  <ul>
+                    <li><a href="#">Nagpur</a>
+                    <li><a href="#">Nagpur</a>
+                    <li><a href="#">Nagpur</a>
+                  </ul>
+                </div>
+                <p><a class="green" data-toggle="modal" data-target=".bs-example-modal-lg">All cities</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="seat-panel" class="container-fluid seat-book-panel">
+      <div class="col-md-9 col-sm-9 main-seat-book-panel">
+        <div class="indication-div">
+          <ul class="list-inline">
+            <li class="indi-div indi-div1"></li>
+            <li class="indi-text"><span>Available</span></li>
+            <li class="indi-div indi-div2"></li>
+            <li class="indi-text"><span>Selected</span></li>
+            <li class="indi-div indi-div3"></li>
+            <li class="indi-text"><span>Unavailable</span></li>
+          </ul>
+        </div>
+        <div class="main-book-seat-sec">
+          <div class="book-seat-sec1">
+            <p>Club - Rs. 220</p>
+            <div id="messagePanel" class="messagePanel">
+              <div class="seat seat-no-css">A</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">27</div>
+              <div class="seat">26</div>
+              <div class="seat">25</div>
+              <div class="seat">24</div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">21</div>
+              <div class="seat">20</div>
+              <div class="seat unavailable">19</div>
+              <div class="seat unavailable">18</div>
+              <div class="seat unavailable">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">B</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">C</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat selected">13</div>
+              <div class="seat selected">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">D</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">E</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">F</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">G</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">H</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <div class="book-seat-sec1">
+            <p>Excusive - Rs. 180</p>
+            <div id="messagePanel" class="messagePanel">
+              <div class="seat seat-no-css">A</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">21</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat unavailable">17</div>
+              <div class="seat unavailable">16</div>
+              <div class="seat unavailable">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">B</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">C</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat selected">13</div>
+              <div class="seat selected">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">D</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">E</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">F</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">G</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">H</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <div class="book-seat-sec1">
+            <p>Frist- Rs. 100</p>
+            <div id="messagePanel" class="messagePanel">
+              <div class="seat seat-no-css">A</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">27</div>
+              <div class="seat">26</div>
+              <div class="seat">25</div>
+              <div class="seat">24</div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">21</div>
+              <div class="seat">20</div>
+              <div class="seat unavailable">19</div>
+              <div class="seat unavailable">18</div>
+              <div class="seat unavailable">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">B</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">C</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat selected">13</div>
+              <div class="seat selected">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">D</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">E</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">F</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">G</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+              <div class="seat seat-no-css">H</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">23</div>
+              <div class="seat">22</div>
+              <div class="seat">20</div>
+              <div class="seat">20</div>
+              <div class="seat">19</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">18</div>
+              <div class="seat">17</div>
+              <div class="seat">16</div>
+              <div class="seat">15</div>
+              <div class="seat">14</div>
+              <div class="seat">13</div>
+              <div class="seat">12</div>
+              <div class="seat">11</div>
+              <div class="seat">10</div>
+              <div class="seat">09</div>
+              <div class="seat">08</div>
+              <div class="seat">07</div>
+              <div class="seat">06</div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat seat-no-back-css"></div>
+              <div class="seat">05</div>
+              <div class="seat">04</div>
+              <div class="seat">03</div>
+              <div class="seat">02</div>
+              <div class="seat">01</div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="book-screen-way text-center">
+          <p class="no-margin">SCREEN THIS WAY</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 main-sidebar hidden-xs">
+        <div class="inner-sidebar">
+          <div class="top-sidebar clearfix">
+            <div class="movie-nem-detail">
+              <h2 class="font-dr-colr">Jab Harry Met Sejal</h2>
+              <p>Hindi | UA | 2D</p>
+              <hr class="book-border">
+              <div class="book-show-time">
+                <p class="font-fet-colr">THEATRES</p>
+                <p class="font-sz-16 font-fet-colr margin-btm-16">INOX Poonam Mall, Wardhaman Nagar</p>
+              </div>
+              <div class="book-show-time">
+                <p class="font-fet-colr">SHOWTIME</p>
+                <p class="font-sz-16 font-fet-colr margin-btm-5">Friday, 4 Aug 2017 <span class="green">09:00 PM</span></p>
+              </div>
+              <div class="book-show-time">
+                <p class="font-fet-colr">SELECT TICKET TYPE</p>
+                <div class="book-ticket">
+                  <div class="radio radio-info radio-inline">
+                      <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked="">
+                      <label for="inlineRadio1"> M - Ticket </label>
+                  </div>
+                  <div class="radio radio-info radio-inline">
+                      <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
+                      <label for="inlineRadio2"> E - Ticket </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <hr class="handling-fees-border">  
+              <div class="ticket-number clearfix">
+                <p class="pull-left font-md-colr font-sz-16">Tickets 2 X   120.00 </p>
+                <p class="pull-right font-md-colr font-sz-16">&#8377;. 240.00</p>
+              </div>
+          </div>
+          <!-- <div class="trans-dontion">
+            <div class="checkbox checkbox-success">
+                <input id="checkbox3" type="checkbox">
+                <label for="checkbox3" class="font-sz-12">
+                  Rs. 2 added to your transaction as a donation Rs. 1/ Ticket
+                </label>
+            </div>
+          </div> -->
+        </div>
+        <div class="sidebar-btom-totl clearfix">
+          <p class="pull-left font-sz-16 no-margin">Total Amount</p>
+          <p class="pull-right font-sz-16 no-margin">&#8377;. 240.00 </p>
+        </div>
+
+         <a href="payment.html">
+          <div class="proceed">
+          <p class="font-sz-16 no-margin">PROCEED</p>
+          </div>
+         </a>
+
+        <!-- <div class="easy-card">
+          <p class="font-sz-12">Easy and secured way</p>
+          <img src="img/card.png" class="img-responsive">
+        </div> -->
+      </div>      
+
+      <div class="row payment-botm-text clearfix">
+        <div class="note-bottm">
+          <div class="col-sm-8">
+          <p>Note:</p> 
+          <p>Registrations/Tickets once booked cannot be exchanged, cancelled or refunded.</p>
+          <p>In case of Credit/Debit Card bookings, the Credit/Debit Card and Card holder must be present at the ticket counter while collecting the ticket(s).</p>
+        </div>
+        <div class="col-sm-4 payment-botm-text-right">
+          <p>© Resvered by moviesnow.pvt ltd. <a href="">Privacy Policy</a> | <a href="">Contact Us</a></p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="container-fluid main-footer-bar gradi-clor">
+      <div class="footer-bar">
+        <ul class="list-inline pull-left no-margin">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Movies</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Theaters</a></li>
+          <li><a href="">Trailers and videos</a></li>
+          <li><a href="">Offers</a></li>
+          <li><a href="">Customer service</a></li>
+        </ul>
+        <ul class="list-inline pull-right no-margin seccond-blog-right">
+          <li><a href=""><i class="bms-icnandroid-logo"></i></a></li>
+          <li><a href=""><i class="bms-icnwindows-logo-silhouette"></i></a></li>
+          <li><a href=""><i class="bms-icnapple"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer container-fluid">
+      <div class="container-fluid footer-links hidden-xs">
+        <div class="col-md-5th-1 col-sm-6 col-xs-6 foot-pad">
+          <p class="text-uppercase">Movie Categories</p>
+          <ul>
+            <li><a href="">Hindi Comedy Movies</a></li>
+            <li><a href="">Hindi Action Movies</a></li>
+            <li><a href="">Englist Animated Movies</a></li>
+            <li><a href="">English Fantasy Movies</a></li>
+            <li><a href="">nglish Comedy Movies</a></li>
+            <li><a href="">Marathi Drama Movies</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5th-1 col-sm-6 col-xs-6 foot-pad">
+          <p class="text-uppercase">Upcoming Events</p>
+          <ul>
+            <li><a href="">Upcoming Events in Mumbai</a></li>
+            <li><a href="">Upcoming Events in Dehli</a></li>
+            <li><a href="">Upcoming Events in Channei</a></li>
+            <li><a href="">Upcoming Events in Pune</a></li>
+            <li><a href="">Upcoming Events in Noida</a></li>
+            <li><a href="">Upcoming Events in Nagpur</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5th-1 col-sm-6 col-xs-6 foot-pad">
+          <p class="text-uppercase">Movie ticket booking</p>
+          <ul>
+            <li><a href="">Delhi-NCR Movie Ticket Booking</a></li>
+            <li><a href="">Bengaluru Movie Ticket Booking</a></li>
+            <li><a href="">Chennai Movie Ticket Booking</a></li>
+            <li><a href="">Hyderabad Movie Ticket Booking</a></li>
+            <li><a href="">Mumbai Movie Ticket Booking</a></li>
+            <li><a href="">Pune Movie Ticket Booking</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5th-1 col-sm-6 col-xs-6 foot-pad">
+          <p class="text-uppercase">Best events by language</p>
+          <ul>
+            <li><a href="">Event Coming Today</a></li>
+            <li><a href="">Event Coming Tomarrow </a></li>
+            <li><a href="">Event Coming This Weekend</a></li>
+            <li><a href="">Event In Next Weekend</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5th-1 col-sm-6 col-xs-6 foot-pad">
+          <p class="text-uppercase">About</p>
+          <ul>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+            <li><a href="">Payment Terms</a></li>
+            <li><a href="">Cancellation Policy</a></li>
+            <li><a href="">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="hidden-xs">
+      <div class="container-fluid footer-botm">
+        <p class="pull-left">
+          Copyright 2017 © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.
+        </p>
+        <ul class="list-inline pull-right">
+          <li><a href=""><i class="bms-icnfacebook-logo"></i></a></li>
+          <li><a href=""><i class="bms-icntwitter-logo-button"></i></a></li>
+          <li><a href=""><i class="bms-icngoogle-plus-logo-button"></i></a></li>
+          <li><a href=""><i class="bms-icnlinkedin-button"></i></a></li>
+          <li><a href=""><i class="bms-icnyoutube-logotype"></i></a></li>
+        </ul>
+      </div>
+      <!-- <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a> -->
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.bxslider.min_optimized.js"></script>
+    
+  </body>
+</html>
